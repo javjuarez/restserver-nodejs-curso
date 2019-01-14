@@ -16,3 +16,6 @@ process.env.CADUCIDAD_TOKEN = 60*60*24*30;
 
 // ======= SEED DE AUTENTIFICACIÓN ======= 
 process.env.SEED = process.env.SEED || 'palabra-super-secreta';
+
+// ======= GOOGLE CLIENT ID ======= 
+process.env.CLIENT_ID = process.env.CLIENT_ID || '201774365977-o9omf9kg7hspvvmi0vlv5p0ue2fpac13.apps.googleusercontent.com';
