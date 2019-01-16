@@ -12,7 +12,8 @@ process.env.URL_DB = urlDB;
 
 // ======= VENCIMIENTO DEL TOKEN ======= 
 // 60 s * 60 m * 24 h * 30 d
-process.env.CADUCIDAD_TOKEN = 60*60*24*30;
+// process.env.CADUCIDAD_TOKEN = 60*60*24*30;
+process.env.CADUCIDAD_TOKEN = '48h';
 
 // ======= SEED DE AUTENTIFICACIÓN ======= 
 process.env.SEED = process.env.SEED || 'palabra-super-secreta';

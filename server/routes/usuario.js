@@ -88,7 +88,7 @@ app.delete('/usuario/:id', [verificaToken, verificaRolAdmin], function (req, res
 	Usuario.findByIdAndUpdate(id, {estado: false}, {new: true}, (err, usuarioBorrado) => {
 	// Usuario.findByIdAndRemove(id, (err, usuarioBorrado) => {
 		if (err) {
-			return res.status(400).json({
+			return res.status(500).json({
 				ok: false,
 				err
 			});
